@@ -288,12 +288,9 @@ li {
   padding: 100px 0;
 }
 
-.footer-page > a {
+.footer-page .logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.footer-page .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
