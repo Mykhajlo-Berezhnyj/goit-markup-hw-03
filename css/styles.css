@@ -141,6 +141,7 @@ li {
   background-color: #2e2f42;
 }
 .button-first {
+  display: block;
   min-width: 169px;
   min-height: 56px;
   padding: 32px 16px;
