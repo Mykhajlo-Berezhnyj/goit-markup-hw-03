@@ -211,7 +211,6 @@ li {
 .team-list {
   display: flex;
   gap: 24px;
-  padding: 0px 0px 32px 0px;
 }
 
 .team-item {
@@ -311,6 +310,5 @@ li {
 
 .footer-page .text {
   color: #f4f4fd;
-  margin-top: 16px;
   width: 264px;
 }
