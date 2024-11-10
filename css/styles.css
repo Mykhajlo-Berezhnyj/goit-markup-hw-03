@@ -171,13 +171,26 @@ li {
   color: #2e2f42;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .priority-list {
   display: flex;
   gap: 24px;
 }
 
 .priority-item {
-  width: calc((100% - 3 * 24) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-third {
@@ -203,7 +216,6 @@ li {
 
 .team-item {
   width: calc((100% - 3 * 24px) / 4);
-  border: 1px solid #2e2f42;
   background-color: #fff;
 }
 
@@ -274,6 +286,7 @@ li {
 
 .footer-page {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-page .logo {
   font-family: 'Raleway', sans-serif;
@@ -297,4 +310,6 @@ li {
 
 .footer-page .text {
   color: #f4f4fd;
+  margin-top: 16px;
+  width: 264px;
 }
